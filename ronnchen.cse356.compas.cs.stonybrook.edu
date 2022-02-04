@@ -1,6 +1,6 @@
 server {
   listen 80;
-  root /var/www;
+  root /var/www/ronnchen.cse356.compas.cs.stonybrook.edu;
   index hw0.html;
   server_name ronnchen.cse356.compas.cs.stonybrook.edu;
   location / {
