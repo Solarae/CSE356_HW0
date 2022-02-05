@@ -2,7 +2,6 @@ server {
   listen 80;
   root /var/www/ronnchen.cse356.compas.cs.stonybrook.edu;
   index hw0.html;
-  server_name ronnchen.cse356.compas.cs.stonybrook.edu;
   location / {
     try_files $uri $uri/ =404;
   }
